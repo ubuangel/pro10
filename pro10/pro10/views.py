@@ -9,7 +9,7 @@ def  despedida(request):
     #//devolver e lonjeto hhtpresponse y como parametro el pasamos 
 def dameFecha(request):
     fecha_actual=datetime.datetime.now()
-        
+    #type object 'datetime.datetime' has no attribute 'datetime'    
     documento="""<html><bosy><h1> Fecha y hora actuales %s</html></bosy></h1>"---%fecha_actual"""%fecha_actual
         
     return HttpResponse(documento)

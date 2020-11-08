@@ -19,8 +19,23 @@ from django.contrib import admin
 from django.urls import path
 from pro10.views import saludo,despedida
 #from pro10.views import despedida#importar funcion al archivo urls
+from pro10.views import year_archive
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/',saludo),    
     path('nosveremos/',despedida),
+    
+    
+    path('articles/<int:year>/', year_archive),
+    #path('articles/<int:year>/<int:month>/', views.month_archive),
+    #path('articles/<int:year>/<int:month>/<int:pk>/', views.article_detail),
+    
 ]
+
+
+
+
+
+
+

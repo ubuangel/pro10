@@ -15,6 +15,8 @@ Including another URLconf
 """
 
 #esta es la rama 2
+
+#https://docs.djangoproject.com/es/3.1/intro/overview/#design-your-templates
 from django.contrib import admin
 from django.urls import path
 from pro10.views import saludo,despedida

@@ -12,7 +12,7 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a UUURL to urlpatterns:  path('blog/', include('blog.urls'))
-rama2 equivocacion
+rama2 para misitio
 """
 
 # een las arams podemos tabajar y si estanseguros del codigo manda un pull request para que se agregue ala rama master
